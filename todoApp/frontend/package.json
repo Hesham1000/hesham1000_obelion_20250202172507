@@ -9,16 +9,17 @@
     },
     "dependencies": {
         "react": "latest",
-        "react-dom": "latest",
+        "react-icons": "latest",
         "react-router-dom": "latest",
+        "react-dom": "latest",
         "axios": "latest",
         "redux": "latest",
         "prop-types": "latest"
     },
     "devDependencies": {
-        "react": "latest",
         "webpack": "latest",
-        "eslint": "7.32.0"
+        "eslint": "7.32.0",
+        "react": "latest"
     },
     "browserslist": {
         "production": [
