@@ -9,16 +9,16 @@
     },
     "dependencies": {
         "react": "latest",
-        "react-icons": "latest",
         "react-router-dom": "latest",
         "react-dom": "latest",
         "axios": "latest",
         "redux": "latest",
-        "prop-types": "latest"
+        "prop-types": "latest",
+        "react-icons": "latest"
     },
     "devDependencies": {
-        "webpack": "latest",
         "eslint": "7.32.0",
+        "webpack": "latest",
         "react": "latest"
     },
     "browserslist": {
