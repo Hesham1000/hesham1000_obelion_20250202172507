@@ -16,8 +16,9 @@
         "prop-types": "latest"
     },
     "devDependencies": {
-        "eslint": "7.32.0",
-        "webpack": "latest"
+        "react": "latest",
+        "webpack": "latest",
+        "eslint": "7.32.0"
     },
     "browserslist": {
         "production": [

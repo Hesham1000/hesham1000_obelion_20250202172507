@@ -1,0 +1,120 @@
+.TaskList-task-list-container {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.TaskList-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333333;
+}
+
+.TaskList-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFCC00;
+  cursor: pointer;
+}
+
+.TaskList-nav-tabs a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #FF9933;
+  transition: color 0.3s ease;
+}
+
+.TaskList-nav-tabs a:hover {
+  color: #FFCC00;
+}
+
+.TaskList-task-form-container {
+  padding: 20px;
+  margin: 0 20px;
+  background-color: #333333;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+  align-self: center;
+}
+
+.TaskList-task-input,
+.TaskList-task-textarea,
+.TaskList-task-select,
+.TaskList-primary-action-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #444444;
+  border: 1px solid #555555;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.TaskList-task-input:focus,
+.TaskList-task-textarea:focus,
+.TaskList-task-select:focus {
+  border-color: #3366CC;
+  outline: none;
+}
+
+.TaskList-primary-action-button {
+  background-color: #32A852;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.TaskList-primary-action-button:hover {
+  background-color: #28a745;
+}
+
+.TaskList-tasks-display {
+  margin: 20px;
+  flex-grow: 1;
+}
+
+.TaskList-tasks-display h2 {
+  color: #FFCC00;
+}
+
+.TaskList-task-item {
+  background-color: #333333;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.TaskList-task-item h3 {
+  color: #ffffff;
+}
+
+.TaskList-task-item p {
+  color: #FF9933;
+  margin: 5px 0;
+}
+
+.TaskList-footer {
+  background-color: #333333;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.TaskList-footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #FF9933;
+  transition: color 0.3s ease;
+}
+
+.TaskList-footer-links a:hover {
+  color: #FFCC00;
+}
